@@ -5,6 +5,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Services | Beginner Gardening Guide</title>
   <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* Para mas maayos tingnan yung services list */
+    ul.services-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul.services-list li {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      background: #f5f5f5;
+      padding: 10px;
+      border-radius: 10px;
+    }
+
+    ul.services-list img {
+      width: 120px;
+      height: auto;
+      border-radius: 8px;
+      margin-right: 15px;
+    }
+
+    ul.services-list strong {
+      font-size: 18px;
+      display: block;
+      margin-bottom: 5px;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -25,12 +54,42 @@
       <p>
         To help you start your gardening journey, we offer the following guides and resources:
       </p>
-      <ul>
-        <li><strong>Step-by-step Gardening Guides</strong> – Learn the basics from soil preparation to planting.</li>
-        <li><strong>Plant Care Tips</strong> – Guidance on watering, sunlight, and seasonal maintenance.</li>
-        <li><strong>DIY Projects</strong> – Fun activities to improve your garden space creatively.</li>
-        <li><strong>Pest & Disease Solutions</strong> – Easy methods for keeping your plants safe and healthy.</li>
-        <li><strong>Gardening Tools Guide</strong> – Recommendations for essential beginner tools.</li>
+      <ul class="services-list">
+        <li>
+          <img src="images/guide.jpg" alt="Gardening Guide">
+          <div>
+            <strong>Step-by-step Gardening Guides</strong>
+            Learn the basics from soil preparation to planting.
+          </div>
+        </li>
+        <li>
+          <img src="images/plantcare.jpg" alt="Plant Care">
+          <div>
+            <strong>Plant Care Tips</strong>
+            Guidance on watering, sunlight, and seasonal maintenance.
+          </div>
+        </li>
+        <li>
+          <img src="images/diy.jpg" alt="DIY Projects">
+          <div>
+            <strong>DIY Projects</strong>
+            Fun activities to improve your garden space creatively.
+          </div>
+        </li>
+        <li>
+          <img src="images/pest.jpg" alt="Pest and Disease Solutions">
+          <div>
+            <strong>Pest & Disease Solutions</strong>
+            Easy methods for keeping your plants safe and healthy.
+          </div>
+        </li>
+        <li>
+          <img src="images/tools.jpg" alt="Gardening Tools">
+          <div>
+            <strong>Gardening Tools Guide</strong>
+            Recommendations for essential beginner tools.
+          </div>
+        </li>
       </ul>
     </section>
   </main>
@@ -39,4 +98,5 @@
     <p>&copy; 2025 Beginner Gardening Guide</p>
   </footer>
 </body>
+
 </html>
