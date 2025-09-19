@@ -331,6 +331,84 @@ footer p { margin-top: 8px; }
   margin: 20px auto;   /* nakagitna */
 }
 
+/* Dropdown base */
+.dropdown {
+  position: relative;
+}
+
+.dropbtn {
+  cursor: pointer;
+  padding: 10px 15px;
+  display: inline-block;
+}
+
+/* Dropdown content - hidden by default */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: #fff;
+  min-width: 220px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  border-radius: 6px;
+  z-index: 100;
+}
+
+.dropdown-content li {
+  list-style: none;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #333;
+  transition: 0.3s;
+}
+
+.dropdown-content a:hover {
+  background: #e6f3e6;
+}
+
+/* Checkbox trick – show dropdown when checked */
+#toggle-guides:checked + .dropbtn + .dropdown-content {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px; /* pantay na pagitan */
+  padding: 0;
+  margin: 0;
+  align-items: center; /* para lahat pantay sa gitna */
+}
+
+nav ul li {
+  position: relative;
+}
+
+nav ul li a, 
+.dropbtn {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  cursor: pointer;
+  line-height: 1.5;
+}
+
+nav ul li a, 
+.dropbtn {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #fff;   /* ← gawin white */
+  font-weight: 500;
+  cursor: pointer;
+  line-height: 1.5;
+}
+
 
 
 
